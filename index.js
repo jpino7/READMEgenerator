@@ -59,14 +59,31 @@ const questions = [
 ];
 
 // Function to create file
-function writeToFile(fileName, data) {
-}
+function writeToFile(response, user) {
+    let markdown = generateMarkdown(response, user);
+    fs.writeFile("README.md", markdown, function(err) {
+        if (err) {
+            return console.log(err);
+        }
+         console.log("Success!!")
+    });
+};
 
 // Function for Initialization 
 function init() {
-    inquirer.prompt(questions);
+    inquirer.prompt(questions).then(function (data) {
+        let response = data;
+        const usernameURL = `https://api.github.com/users/${data.username}`
+        axios.get(usernameURL).then(function (res) {
+            writeToFile(response, res.data)
+        }).catch(function (err) {
+            console.log(err);
+        }).then(function () {
+            console.log("Thank you for using README.md Generator!");
+        });
+    });
 
-}
+};
 
 // Initialize
 init();

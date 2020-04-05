@@ -31,14 +31,11 @@ ${response.contributing}\n
 ## Tests \n
 ${response.tests}\n
 
+## Site \n
+${response.site}\n
+
 ## Questions \n
-
 For any questions please contact the Project Owner:
-
-
-
-
-
 
 
 `;

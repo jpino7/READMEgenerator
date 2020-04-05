@@ -56,6 +56,12 @@ const questions = [
         name: "tests",
         message: "Explain how tests were implemented to this project:"
     },
+    {
+        type: "input",
+        name: "site",
+        message: "Deployed App Site:"
+    }
+    
 ];
 
 // Function to create file

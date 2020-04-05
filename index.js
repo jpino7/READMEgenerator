@@ -1,3 +1,4 @@
+// Constant Values (Cannot be Altered)
 const inquirer = require("inquirer");
 const fs = require("fs");
 const axios = require("axios");
@@ -57,13 +58,15 @@ const questions = [
     },
 ];
 
-
+// Function to create file
 function writeToFile(fileName, data) {
 }
 
+// Function for Initialization 
 function init() {
     inquirer.prompt(questions);
 
 }
 
+// Initialize
 init();

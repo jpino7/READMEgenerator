@@ -1,4 +1,7 @@
 const inquirer = require("inquirer");
+const fs = require("fs");
+const axios = require("axios");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // Questions for User to answer
 const questions = [

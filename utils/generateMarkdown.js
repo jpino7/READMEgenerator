@@ -37,12 +37,12 @@ ${response.tests}
 ## Site
 ${response.site}
 
-## Questions
+## Questions :grey_question:
 For any questions please contact the Project Owner: \n
 ![Profile Image](${user.avatar_url})\n
-Name: ${user.name}
-Github Username: ${response.username}
-Email: ${response.email}
+- **Name:** ${user.name}
+- **Github Username:** ${response.username}
+- **Email:** ${response.email}
 `;
 }
 

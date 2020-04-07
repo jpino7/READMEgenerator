@@ -1,43 +1,44 @@
 function generateMarkdown(response, user) {
   return `
-# ${response.project}\n
+# ${response.project}
 
-## Description \n
-${response.description}\n
+## Description
+${response.description}
 
-## Table of Contents \n
-- [Installation](#installation)\n
-- [Usage](#usage)\n
-- [Contributors](#contributors)\n
-- [License](#license)\n
-- [Tests](#tests)\n
-- [Questions](#questions)\n
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributors](#contributing)
+- [License](#license)
+- [Tests](#tests)
+- [Questions](#questions)
 
-## Installation \n
-${response.installation}\n
+## Installation
+${response.installation}
 
-## Usage \n
-${response.usage}\n
+## Usage
+${response.usage}
 
-## License \n
-${response.license}\n
+## License
+${response.license}
 
-## Credit \n
-${response.credit}\n
+## Credit
+${response.credit}
 
-## Contributing \n
-${response.contributing}\n
+## Contributing
+${response.contributing}
 
-## Tests \n
-${response.tests}\n
+## Tests
+${response.tests}
 
-## Site \n
-${response.site}\n
+## Site
+${response.site}
 
-## Questions \n
-For any questions please contact the Project Owner:
+## Questions
+For any questions please contact the Project Owner: \n
 ![Profile Image](${user.avatar_url})\n
-
+Github Username: ${user.username}\n
+Email: ${response.email}\n
 `;
 }
 

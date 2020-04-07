@@ -43,7 +43,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "credit",
+        name: "credits",
         message: "Name those who contributed to the project:"
     },
     {

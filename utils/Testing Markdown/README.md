@@ -1,65 +1,46 @@
 
 # README.md Generator
 
-
-## Description 
-
+## Description
 Follows a prompt from the terminal command line and based off of user input, then generates a README.md using info from the users GitHub
 
+## Badges
+![badge](https://img.shields.io/github/languages/top/jpino7/READMEgenerator)
 
-## Table of Contents 
-
+## Table of Contents
 - [Installation](#installation)
-
 - [Usage](#usage)
-
-- [Contributors](#contributors)
-
+- [Contributors](#contributing)
 - [License](#license)
-
 - [Tests](#tests)
-
 - [Questions](#questions)
 
-
-## Installation 
-
+## Installation
 Run npm install into the appropriate Directory, then input node index.js
 
+## Usage
+a README.md is generated using user input and data from the supplied usernames profile.
 
-## Usage 
-
- a README.md is generated using user input and data from the supplied usernames profile.
-
-
-## License 
-
+## License
 N/A
 
-
-## Credit 
-
+## Credits
 Joanna Pino
 
-
-## Contributing 
-
-N/A at the moment
-
-
-## Tests 
-
-I tested via console.log and running it by node index.js
-
-
-## Site 
-
+## Contributing
 N/A
 
+## Tests
+Tested via console.log and node index.js
 
-## Questions 
+## Site
+N/A
 
-For any questions please contact the Project Owner:
+## Questions
+For any questions please contact the Project Owner: 
+
 ![Profile Image](https://avatars3.githubusercontent.com/u/59301610?v=4)
 
-
+Name: Joanna Pino
+Github Username: jpino7
+Email: pino3789@gmail.com

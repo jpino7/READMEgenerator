@@ -5,6 +5,9 @@ function generateMarkdown(response, user) {
 ## Description
 ${response.description}
 
+## Badges
+![badge](https://img.shields.io/github/languages/top/jpino7/READMEgenerator)
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -22,8 +25,8 @@ ${response.usage}
 ## License
 ${response.license}
 
-## Credit
-${response.credit}
+## Credits
+${response.credits}
 
 ## Contributing
 ${response.contributing}
@@ -37,8 +40,9 @@ ${response.site}
 ## Questions
 For any questions please contact the Project Owner: \n
 ![Profile Image](${user.avatar_url})\n
-Github Username: ${user.username}\n
-Email: ${response.email}\n
+Name: ${user.name}
+Github Username: ${response.username}
+Email: ${response.email}
 `;
 }
 

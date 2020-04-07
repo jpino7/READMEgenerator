@@ -19,7 +19,7 @@ A command line application that dynamically generates a README.md from a user's 
 Run npm install in the appropriate directory, then input node index.js
 
 ## Usage
-You will be prompted with questions about your GitHub information and your project, GitHub information will be used to make a call to the GitHub API to retrieve your name and profile image.
+You will be prompted with questions about your GitHub information and your project, Gituhub information will be used to make a call to the GitHub API to retrieve your name and profile image.
 
 ## License
 N/A

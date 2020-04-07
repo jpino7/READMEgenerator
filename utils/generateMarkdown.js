@@ -36,7 +36,7 @@ ${response.site}\n
 
 ## Questions \n
 For any questions please contact the Project Owner:
-
+![Profile Image](${user.avatar_url})\n
 
 `;
 }

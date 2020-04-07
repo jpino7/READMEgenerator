@@ -4,7 +4,7 @@
 ## Description
 A command line application that dynamically generates a README.md from a user's input. The application is invoked with the following command: ``` node index.js ```
 
-![Demo](/utils/ezgif.com-video-to-gif)
+![Demo](/utils/README.md-Demo.gif)
 
 ## Badges
 ![badge](https://img.shields.io/github/languages/top/jpino7/READMEgenerator)

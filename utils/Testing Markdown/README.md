@@ -2,7 +2,7 @@
 # README.md Generator
 
 ## Description
-Created a command line application that dynamically generates a README.md from the user's input. The appilication is invoke with the following command: ``` node index.js ```
+A command line application that dynamically generates a README.md from a user's input. The application is invoked with the following command: ``` node index.js ```
 
 ## Badges
 ![badge](https://img.shields.io/github/languages/top/jpino7/READMEgenerator)
@@ -16,10 +16,10 @@ Created a command line application that dynamically generates a README.md from t
 - [Questions](#questions)
 
 ## Installation
-npm install to the appropriate directory, then run it by inputing node index.js
+Run npm install in the appropriate directory, then input node index.js
 
 ## Usage
-Using the user inputs and data from the supplied GitHub API a README.md is generated.
+You will be prompted with questions about your GitHub information and your project, GitHub information will be used to make a call to the GitHub API to retrieve your name and profile image.
 
 ## License
 N/A
@@ -36,7 +36,7 @@ Tested via console.log and node index.js
 ## Site
 N/A
 
-## Questions :grey_question:
+## Questions
 For any questions please contact the Project Owner: 
 
 ![Profile Image](https://avatars3.githubusercontent.com/u/59301610?v=4)

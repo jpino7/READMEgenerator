@@ -37,7 +37,7 @@ ${response.tests}
 ## Site
 ${response.site}
 
-## Questions :grey_question:
+## Questions
 For any questions please contact the Project Owner: \n
 ![Profile Image](${user.avatar_url})\n
 - **Name:** ${user.name}
